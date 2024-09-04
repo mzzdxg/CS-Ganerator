@@ -4,7 +4,7 @@ Project Introduction: In this project, a framework called CS-Ganerator is propos
 "1-Color Extraction.py":
 Image Color Scheme Extraction Program
 "2-Color Scheme Dataset":
-The extracted color scheme dataset, "full-data.xlsx" is the complete dataset, including over 300,000 schemes in total;
+The extracted color scheme dataset,
 "training-data.xlsx" is the dataset used for actual model training, including 46,500 schemes;
 "template_data.xlsx" is the selected template library data, and the "template imgs" folder contains images of the color schemes from the template library.
 "3-Model":
