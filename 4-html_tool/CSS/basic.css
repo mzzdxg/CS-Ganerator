@@ -1,0 +1,237 @@
+body {
+    /* background-color: aquamarine; */
+    /* background-image: url(../images/background.png); */
+    /* background-image: url(../images/test1.png); */
+    /* background-image: url(../images/test2.png); */
+    background-size: 100%;
+    z-index: -1;
+    margin: 0;
+}
+
+#big-box1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+    background-color: rgb(255, 255, 255, 0.6);
+    /* opacity: 0.5; */
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.box1 {
+    display: grid;
+    gap: 5px 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: absolute;
+    justify-content: space-around;
+    top: 25px;
+    left: 25px;
+    /* background-color: rgb(20, 125, 200, 0.5); */
+    width: 290px;
+    height: 450px;
+    margin: auto;
+}
+
+.box2 {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    /* background-color: rgb(200, 125, 200, 0.5); */
+    width: 260px;
+    height: 450px;
+    margin: auto;
+}
+
+#color-num {
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    top: 50px;
+    left: 73px;
+}
+
+.little-box {
+    /* background-color: rgb(165, 116, 41); */
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 5px;
+}
+
+.select {
+    /* -webkit-appearance: none; */
+    position: absolute;
+    border-radius: 10px;
+    left: 60px;
+    top: 50px;
+    /* background-color: aqua; */
+}
+
+.bt {
+    position: absolute;
+}
+
+button {
+    margin: auto;
+    background-color: rgb(100, 188, 156, 0.8);
+    color: white;
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    border: 10px;
+    border-radius: 10px;
+}
+
+.themes {
+    /* background-color: blue; */
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+p {
+    /* background-color: brown; */
+    font-size: 16px;
+    text-align: center;
+}
+
+span {
+    position: absolute;
+    font: 10px;
+}
+
+.left {
+    top: 48px;
+    left: 28px;
+}
+
+.right {
+    top: 48px;
+    right: 26px;
+}
+
+#svgs-box {
+    background-color: rgb(192, 242, 245);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+svg {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#bk1 {
+    fill: #244f51;
+}
+#bk2 {
+    fill: #417172;
+}
+#bk3 {
+    fill: #5a989b;
+}
+#bk4 {
+    fill: #84c2c5;
+    /* fill: #ff0000; */
+}
+#bk5 {
+    fill: #96d3d6;
+}
+#bk6 {
+    fill: #bfe6ef;
+}
+
+#big-box2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+    background-color: rgb(255, 255, 255, 0.6);
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* 放置每一个方案的定位容器 */
+.scheme-img {
+    position: relative;
+    /* background-color: blanchedalmond; */
+    width: 130px;
+    height: 500px;
+}
+
+/* 展示大图的容器 */
+.scheme-img-big {
+    background-color: rgb(255, 255, 255, 0.5);
+    position: relative;
+    top: 5px;
+    left: 2px;
+    margin: 0;
+    width: 156px;
+    height: 490px;
+    border-radius: 15px;
+    /* 内部排列方式 */
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    justify-content: center;
+}
+
+/* 展示小图的容器 */
+.scheme-img-small {
+    position: absolute;
+    top: 75px;
+    left: 20px;
+    margin: 0;
+    /* background-color: rgba(211, 132, 195, 0.5); */
+    width: 90px;
+    height: 350px;
+    /* 内部排列方式 */
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    justify-content: center;
+}
+
+.color-show-big {
+    position: relative;
+    left: 15px;
+    width: 126px;
+    height: 70px;
+}
+
+.color-show-small {
+    width: 90px;
+    height: 50px;
+}
+
+.text {
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 5px;
+    line-height: 20px;
+}
+.text_white {
+    color: #ffffff;
+}
